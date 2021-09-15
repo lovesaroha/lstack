@@ -79,9 +79,6 @@ Make sure [Git is installed](https://git-scm.com/downloads) on your machine and 
 
 ### Pop Values With Specific Data Type
 ```Golang 
-  type user struct {
-    name string
-  }
 
   // Create a stack.
   stack = lstack.Create()
