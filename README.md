@@ -22,7 +22,7 @@ Make sure [Git is installed](https://git-scm.com/downloads) on your machine and 
 
 ```Golang
   // Create a stack.
-  stack = lstack.Create()
+  stack := lstack.Create()
 
   // Add values in stack.
   stack.Push(2)
@@ -42,7 +42,7 @@ Make sure [Git is installed](https://git-scm.com/downloads) on your machine and 
 
 ```Golang
   // Create a stack.
-  stack = lstack.Create()
+  stack := lstack.Create()
 
   // Add values in stack.
   stack.PushValues([]interface{}{1,2,3,4,5,6,7,8,9})
@@ -62,7 +62,7 @@ Make sure [Git is installed](https://git-scm.com/downloads) on your machine and 
   }
 
   // Create a stack.
-  stack = lstack.Create()
+  stack := lstack.Create()
 
   // Add values in stack.
   stack.Push(user{name: "love"})
@@ -81,7 +81,7 @@ Make sure [Git is installed](https://git-scm.com/downloads) on your machine and 
 ```Golang 
 
   // Create a stack.
-  stack = lstack.Create()
+  stack := lstack.Create()
 
   // Add values in stack.
   stack.Push(2)
