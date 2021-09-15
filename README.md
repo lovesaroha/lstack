@@ -89,12 +89,12 @@ Make sure [Git is installed](https://git-scm.com/downloads) on your machine and 
   stack.Push(6)
   stack.Push("love")
 
-  // Remove value from stack and return int value (2).
+  // Remove value from stack and return string value ("love").
+  stack.PopString()
+  // Remove value from stack and return int value (6).
   stack.PopInt()
   // Remove value from stack and return float64 value (4.00).
   stack.PopFloat64()
-  // Remove value from stack and return string value ("6").
-  stack.PopString()
 
   // Print values in stack.
   stack.Print()
